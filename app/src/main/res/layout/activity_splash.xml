@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#f5ded3"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:src="@mipmap/ic_image_1_foreground"
+        />
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cabin_bold"
+        android:gravity="center"
+        android:text="Android Splash Screen"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
